@@ -8,11 +8,11 @@
 #
 # Add feature packs only when their capabilities are deployed.
 
--r requirements/base.txt
--r requirements/ai.txt
--r requirements/storage.txt
--r requirements/realtime.txt
--r requirements/dev.txt
+requirements/base.txt
+requirements/ai.txt
+requirements/storage.txt
+requirements/realtime.txt
+requirements/dev.txt
 # Core HTTP/API runtime
 fastapi>=0.104,<1
 uvicorn[standard]>=0.24,<1
